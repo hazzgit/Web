@@ -3,34 +3,106 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Description of the website">
-  <title>Personal page</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
+  <title>Kim Shirin Cupal – radio journalist</title>
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
-  <div class="top-div">
-    <img class="kim" src="images/kim2.png" alt="Name">
-    <h3>a radio journalist</h3>
-    <img class="wave" src="images/wave2.png" alt="">
-    <img class="mike" src="images/mike2.png" alt="">
+
+  <div class="navbar-top-container">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-light">
+
+      <a class="navbar-brand" href="#">
+        <img src="images/profile-pic.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="#profile">About me</a>
+          <a class="nav-link" href="#mywork">My work</a>
+          <a class="nav-link" href="#contact">Contact me</a>
+
+        </div>
+      </div>
+
+    </nav>
+
+
+    <!-- Top Container -->
+    <h1 class="name">Kim Shirin Cupal</h1>
+    <h2 class="profession">a radio journalist</h2>
+    <img class="radio" src="images/radio.png" alt="">
+    <a class="nav-link" href="#profile"><img class="arrow-down" src="images/arrow-down.png" alt=""></a>
+
   </div>
 
-  <div class="middle-div">
+  <!-- Profile Container -->
+  <div class="profile-container" id="profile">
+    <img class="profile-pic" src="images/profile-pic.png" alt="">
+    <h2>&nbspHey!</h2>
+    <p class="profile-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. </p>
 
   </div>
 
-  <div class="bottom-div">
 
+  <!-- My work Container -->
+  <div class="mywork-container" id="mywork">
+    <h2>My Work</h2>
+    <div class="show-container">
+      <img class="show-img-left" src="images/artichoke.png" alt="">
+      <p class="show-text-left"><span class="show-title">Artichoke </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img class="show-img-right" src="images/artichoke.png" alt="">
+      <p class="show-text-right"><span class="show-title">Artichoke </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    </div>
   </div>
 
+  <!-- My work collapsed Container -->
 
-<hr>
+  <details>
+    <summary>See more of my work</summary>
 
-<h3><a href="form.html">Form</a></h3>
+    <div class="mywork-collapsed-container">
 
+      <div class="show-container">
+        <img class="show-img-left" src="images/artichoke.png" alt="">
+        <p class="show-text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <img class="show-img-right" src="images/artichoke.png" alt="">
+        <p class="show-text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+      </div>
+    </div>
+  </details>
+
+  <!-- Contact me Container -->
+  <div class="contact-container" id="contact">
+    <h2>Get in touch</h2>
+    <p class="profile-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a href="mailto:kim@cupal.at">
+      <button type="" class="btn" name="button">
+        <img class="mail-img" src="images/mail.png" alt=""> Message me</button>
+    </a>
+  </div>
+
+  <!-- Footer -->
+
+  
 
 </body>
 
