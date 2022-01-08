@@ -17,7 +17,7 @@ h1 {
   /* font-stretch: ultra-expanded; */
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   h1 {
     color: #F05454;
     text-align: center;
@@ -40,7 +40,7 @@ h2 {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .navbar-top-container {
     padding: 0 5%;
   }
@@ -78,7 +78,7 @@ h2 {
   margin: 30px auto 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .profile-text {
     width: 85%;
     text-align: center;
@@ -90,10 +90,10 @@ h2 {
 
 
 summary {
-  color: lightgrey;
+  color: #30475E;
   text-align: center;
   /* list-style: none; */
-  font-weight: 700;
+  font-weight: 400;
   padding-bottom: 20px;
 }
 
@@ -112,6 +112,15 @@ summary {
   width: 700px;
   margin: auto;
   padding: 2%;
+}
+
+@media (max-width: 1000px) {
+  .show-container {
+    width: 85%;
+    margin: auto;
+    padding: 2%;
+    font-size: 110%;
+  }
 }
 
 .show-img-left {
