@@ -22,7 +22,7 @@ h1 {
     color: #F05454;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 4rem;
+    font-size: 5rem;
     padding: 100px 0 20px;
   }
 }
@@ -32,6 +32,12 @@ h2 {
   color: #F05454;
   text-align: center;
   font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 
 .navbar-top-container {
@@ -80,13 +86,12 @@ h2 {
 
 @media (max-width: 1000px) {
   .profile-text {
-    width: 85%;
+    width: 70%;
     text-align: center;
     margin: 30px auto 0;
-    font-size: 110%;
+    font-size: 120%;
   }
 }
-
 
 
 summary {
@@ -112,11 +117,12 @@ summary {
   width: 700px;
   margin: auto;
   padding: 2%;
+  padding-bottom: 0;
 }
 
 @media (max-width: 1000px) {
   .show-container {
-    width: 85%;
+    width: 70%;
     margin: auto;
     padding: 2%;
     font-size: 110%;
@@ -185,4 +191,10 @@ text-align: center;
 .btn:hover {
   background: #e6e3e6;
   text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  padding-top: 35px;
+  text-align: center;
 }
